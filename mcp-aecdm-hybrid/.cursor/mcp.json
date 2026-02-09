@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "aecdm-hybrid": {
+      "command": "node",
+      "args": ["build/server.js"],
+      "env": {
+        "CLIENT_ID": "PfjvPkG0gf6bo1ziGqlGzHzdmyRhhf06wmlrOV8H2gcuLLRQ"
+      }
+    }
+  }
+}

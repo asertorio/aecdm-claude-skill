@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AECDM Browser (Hybrid)</title>
+  <!-- No Autodesk Viewer CDN needed - viewer runs in external browser -->
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    html, body, #root {
+      width: 100%;
+      height: 100%;
+      font-family: var(--font-sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif);
+    }
+    
+    body {
+      background: var(--color-background-primary, #ffffff);
+      color: var(--color-text-primary, #1a1a1a);
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/aecdm-app.tsx"></script>
+</body>
+</html>

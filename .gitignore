@@ -1,0 +1,15 @@
+# ============================================================================
+# Only track SKILL/ and mcp-aecdm-hybrid/ folders (plus root docs)
+# ============================================================================
+
+# Ignore everything at the root level
+/*
+
+# Whitelist root files
+!.gitignore
+!README.md
+!LICENSE
+
+# Whitelist target folders
+!/SKILL/
+!/mcp-aecdm-hybrid/
